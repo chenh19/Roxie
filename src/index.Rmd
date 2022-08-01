@@ -1,6 +1,6 @@
 ---
-title: "Playlog"
-subtitle: "How I play with my daughter"
+title: "Roxie's Playlog"
+subtitle: "(How I play with my daughter)"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
