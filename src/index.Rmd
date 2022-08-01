@@ -15,4 +15,4 @@ editor_options:
 
 ### GTD
 
-- [ ]
+- [ ] 
