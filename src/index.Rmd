@@ -9,7 +9,14 @@ editor_options:
   chunk_output_type: console
 ---
 
+<center>
+
+![your image caption](image.png)
+
+</center>
+
 <p align="center">
+  How I play with my daughter
   <img src="https://raw.githubusercontent.com/chenh19/Roxie/main/src/Images/cover.jpg" width=60%>
 </p>
 
