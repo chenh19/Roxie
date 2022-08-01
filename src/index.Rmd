@@ -9,7 +9,7 @@ editor_options:
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/chenh19/Roxie/main/src/Images/front.jpg" width=60%>
+  <img src="https://raw.githubusercontent.com/chenh19/Roxie/main/src/Images/cover.jpg" width=60%>
 </p>
 
 
