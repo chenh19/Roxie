@@ -1,0 +1,23 @@
+name: "Prelim"
+output_dir: ../docs
+navbar:
+  title: "Prelim"
+  left:
+  - text: Home
+    href: index.html
+  - text: Play
+    menu:
+    - text: Play
+      href: play.html
+  - text: Misc.
+    href: misc.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/chenh19/Roxie
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: bootstrap
+    highlight: textmate
