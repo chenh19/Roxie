@@ -1,5 +1,5 @@
 ---
-title: "How I play with my daughter"
+title: "Playlog"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
@@ -7,6 +7,8 @@ output:
 editor_options:
   chunk_output_type: console
 ---
+
+This is how I play with my daughter
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/chenh19/Roxie/main/src/Images/cover.jpg" width=60%>
