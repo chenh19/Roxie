@@ -8,6 +8,7 @@ editor_options:
   chunk_output_type: console
 ---
 
+\
 <center>
   -- How I play with my daughter
 </center>
