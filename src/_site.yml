@@ -1,7 +1,7 @@
-name: "Prelim"
+name: "Playlog"
 output_dir: ../docs
 navbar:
-  title: "Prelim"
+  title: "Playlog"
   left:
   - text: Home
     href: index.html
