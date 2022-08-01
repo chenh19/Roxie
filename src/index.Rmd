@@ -8,10 +8,12 @@ editor_options:
   chunk_output_type: console
 ---
 
+### -- How I play with my daughter
 <center>
   -- How I play with my daughter
 </center>
-
+  
+  
 <p align="center">
   <img src="https://raw.githubusercontent.com/chenh19/Roxie/main/src/Images/cover.jpg" width=60%>
 </p>
