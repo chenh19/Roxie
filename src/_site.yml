@@ -1,19 +1,19 @@
-name: "Roxie's Playlog"
+name: "Roxie的玩乐志"
 output_dir: ../docs
 navbar:
-  title: "Playlog"
+  title: "玩乐志"
   left:
-  - text: Home
+  - text: 主页
     href: index.html
-  - text: Play
+  - text: 玩
     menu:
-    - text: Play
+    - text: 玩
       href: play.html
-  - text: Misc.
+  - text: 其他
     href: misc.html
   right:
   - icon: fa-github
-    text: Source code
+    text: 源代码
     href: https://github.com/chenh19/Roxie
 output:
   workflowr::wflow_html:
