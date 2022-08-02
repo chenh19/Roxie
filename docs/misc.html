@@ -529,15 +529,15 @@ project makes it easier to run your code on other machines.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomchenh19Roxietree1f68c6109d2ff47d53e118d9acefa4725652d4b0targetblank1f68c61a">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomchenh19Roxietree789edbf4c04837322b604376423d2a8b2a806ceftargetblank789edbfa">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/chenh19/Roxie/tree/1f68c6109d2ff47d53e118d9acefa4725652d4b0" target="_blank">1f68c61</a>
+<a href="https://github.com/chenh19/Roxie/tree/789edbf4c04837322b604376423d2a8b2a806cef" target="_blank">789edbf</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomchenh19Roxietree1f68c6109d2ff47d53e118d9acefa4725652d4b0targetblank1f68c61a"
+id="strongRepositoryversionstrongahrefhttpsgithubcomchenh19Roxietree789edbf4c04837322b604376423d2a8b2a806ceftargetblank789edbfa"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -547,7 +547,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/chenh19/Roxie/tree/1f68c6109d2ff47d53e118d9acefa4725652d4b0" target="_blank">1f68c61</a>.
+<a href="https://github.com/chenh19/Roxie/tree/789edbf4c04837322b604376423d2a8b2a806cef" target="_blank">789edbf</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -564,6 +564,12 @@ were generated:
 Ignored files:
     Ignored:    .RData
     Ignored:    .Rhistory
+
+Untracked files:
+    Untracked:  src/Code/
+
+Unstaged changes:
+    Deleted:    src/routine.Rmd
 
 </code></pre>
 <p>
@@ -608,6 +614,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/chenh19/Roxie/blob/789edbf4c04837322b604376423d2a8b2a806cef/src/misc.Rmd" target="_blank">789edbf</a>
+</td>
+<td>
+Hang Chen
+</td>
+<td>
+2022-08-02
+</td>
+<td>
+wflow_publish("./src/*.Rmd")
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/chenh19/Roxie/2e0e814455971d8ff84c84defe2d12eb69fb18fb/docs/misc.html" target="_blank">2e0e814</a>
+</td>
+<td>
+Hang Chen
+</td>
+<td>
+2022-08-02
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -1414,32 +1454,11 @@ update
 </div>
 </div>
 </div>
-<div id="routine-code" class="section level3">
-<h3>Routine Code</h3>
-<p><strong>Load:</strong></p>
-<pre class="r"><code># load
-setwd(&quot;./Developing/Roxie/&quot;)
-library(workflowr)</code></pre>
-<p><strong>WorkflowR publish:</strong></p>
-<pre class="r"><code># workflowR publish
-wflow_publish(&quot;./src/*.Rmd&quot;)</code></pre>
-<p><strong>Cleanup:</strong></p>
-<pre class="r"><code># cleanup environment
-rm(list = ls())</code></pre>
-<p><strong>Git commit and push:</strong></p>
-<pre class="bash"><code># git pull
-#mkdir ./Developing/Roxie/
-#cd ./Developing/Roxie/
-#git init
-#git pull git@github.com:chenh19/Roxie.git
-
-# git push
-#cd ./Developing/Roxie/
-#git remote add origin git@github.com:chenh19/Roxie.git
-git commit -a -m &quot;update&quot;
-git add --all
-git commit -a -m &quot;update&quot;
-git push -u origin main</code></pre>
+<div id="misc." class="section level2">
+<h2>Misc.</h2>
+<ul>
+<li></li>
+</ul>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
