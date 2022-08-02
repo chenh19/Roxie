@@ -1,0 +1,55 @@
+---
+title: "Routine Code"
+site: workflowr::wflow_site
+output:
+  workflowr::wflow_html:
+    toc: true
+    toc_depth: 4
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#### Load
+
+```{r,eval=FALSE}
+# load
+setwd("./Developing/Roxie/")
+library(workflowr)
+```
+
+#### WorkflowR publish
+
+```{r,eval=FALSE}
+# workflowR publish
+wflow_publish("./src/*.Rmd")
+```
+
+#### Cleanup
+
+```{r,eval=FALSE}
+# cleanup environment
+rm(list = ls())
+```
+
+#### Git commit and push
+
+```{bash,eval=FALSE}
+# git pull
+#mkdir ./Developing/Roxie/
+#cd ./Developing/Roxie/
+#git init
+#git pull git@github.com:chenh19/Roxie.git
+
+# git push
+#cd ./Developing/Roxie/
+#git remote add origin git@github.com:chenh19/Roxie.git
+git commit -a -m "update"
+git add --all
+git commit -a -m "update"
+git push -u origin main
+```
