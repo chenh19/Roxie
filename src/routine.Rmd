@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-### Load:
+#### Load
 
 ```{r,eval=FALSE}
 # load
@@ -21,21 +21,21 @@ setwd("./Developing/Roxie/")
 library(workflowr)
 ```
 
-### WorkflowR publish:
+#### WorkflowR publish
 
 ```{r,eval=FALSE}
 # workflowR publish
 wflow_publish("./src/*.Rmd")
 ```
 
-### Cleanup:
+#### Cleanup
 
 ```{r,eval=FALSE}
 # cleanup environment
 rm(list = ls())
 ```
 
-### Git commit and push:
+#### Git commit and push
 
 ```{bash,eval=FALSE}
 # git pull
