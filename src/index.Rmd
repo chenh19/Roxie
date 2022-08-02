@@ -1,5 +1,5 @@
 ---
-title: "Roxie's Playlog"
+title: "Roxie的玩乐志"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
@@ -20,4 +20,4 @@ editor_options:
 
 ### GTD
 
-- [ ] organize categories
+- [ ] 整理分类
